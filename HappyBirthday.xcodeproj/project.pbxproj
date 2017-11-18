@@ -15,8 +15,8 @@
 		3A9E6EC21FBEAB5200C11D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E6EC01FBEAB5200C11D32 /* LaunchScreen.storyboard */; };
 		3A9E6ECD1FBEAB5200C11D32 /* HappyBirthdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E6ECC1FBEAB5200C11D32 /* HappyBirthdayTests.swift */; };
 		3A9E6ED81FBEAB5200C11D32 /* HappyBirthdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E6ED71FBEAB5200C11D32 /* HappyBirthdayUITests.swift */; };
-		3A9E6EE61FBEAF3D00C11D32 /* Happy-Birthday-Song-In-Hindi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E6EE51FBEAF3D00C11D32 /* Happy-Birthday-Song-In-Hindi.mp3 */; };
-		3A9E6EEA1FBEB3F700C11D32 /* bollywood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E6EE91FBEB3F700C11D32 /* bollywood.jpg */; };
+		50363CA51FC09E9D00EA1BA1 /* bollywood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50363CA41FC09E9D00EA1BA1 /* bollywood.jpg */; };
+		50363CA71FC09EA800EA1BA1 /* Happy-Birthday-Song-In-Hindi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50363CA61FC09EA800EA1BA1 /* Happy-Birthday-Song-In-Hindi.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		3A9E6ED31FBEAB5200C11D32 /* HappyBirthdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyBirthdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9E6ED71FBEAB5200C11D32 /* HappyBirthdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayUITests.swift; sourceTree = "<group>"; };
 		3A9E6ED91FBEAB5200C11D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A9E6EE51FBEAF3D00C11D32 /* Happy-Birthday-Song-In-Hindi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Happy-Birthday-Song-In-Hindi.mp3"; path = "../../../../Downloads/Happy-Birthday-Song-In-Hindi.mp3"; sourceTree = "<group>"; };
-		3A9E6EE91FBEB3F700C11D32 /* bollywood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bollywood.jpg; path = ../../../../Downloads/bollywood.jpg; sourceTree = "<group>"; };
+		50363CA41FC09E9D00EA1BA1 /* bollywood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bollywood.jpg; path = ../../../../Downloads/bollywood.jpg; sourceTree = "<group>"; };
+		50363CA61FC09EA800EA1BA1 /* Happy-Birthday-Song-In-Hindi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Happy-Birthday-Song-In-Hindi.mp3"; path = "../../../../Downloads/Happy-Birthday-Song-In-Hindi.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 		3A9E6EB31FBEAB5200C11D32 /* HappyBirthday */ = {
 			isa = PBXGroup;
 			children = (
-				3A9E6EE51FBEAF3D00C11D32 /* Happy-Birthday-Song-In-Hindi.mp3 */,
-				3A9E6EE91FBEB3F700C11D32 /* bollywood.jpg */,
+				50363CA41FC09E9D00EA1BA1 /* bollywood.jpg */,
+				50363CA61FC09EA800EA1BA1 /* Happy-Birthday-Song-In-Hindi.mp3 */,
 				3A9E6EB41FBEAB5200C11D32 /* AppDelegate.swift */,
 				3A9E6EB61FBEAB5200C11D32 /* ViewController.swift */,
 				3A9E6EB81FBEAB5200C11D32 /* Main.storyboard */,
@@ -241,11 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50363CA71FC09EA800EA1BA1 /* Happy-Birthday-Song-In-Hindi.mp3 in Resources */,
 				3A9E6EC21FBEAB5200C11D32 /* LaunchScreen.storyboard in Resources */,
 				3A9E6EBF1FBEAB5200C11D32 /* Assets.xcassets in Resources */,
-				3A9E6EE61FBEAF3D00C11D32 /* Happy-Birthday-Song-In-Hindi.mp3 in Resources */,
-				3A9E6EEA1FBEB3F700C11D32 /* bollywood.jpg in Resources */,
 				3A9E6EBA1FBEAB5200C11D32 /* Main.storyboard in Resources */,
+				50363CA51FC09E9D00EA1BA1 /* bollywood.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

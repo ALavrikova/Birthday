@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var firstName: String?
     var lastName: String?
     var age = 30
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         firstName = "Vish"
